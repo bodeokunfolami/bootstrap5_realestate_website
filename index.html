@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vivon Real Estate Company</title>
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <div class="bg-primary text-white p-3">
+        <ul class="m-0 list-unstyled">
+          <li class="d-inline-block me-3">
+            <span>
+              <i class="bi bi-telephone"></i>
+            </span>
+            <span>1-800-555-1234</span>
+          </li>
+          <li class="d-inline-block me-3">
+            <span>
+              <i class="bi bi-envelope"></i>
+            </span>
+            <span>info@example.com</span>
+          </li>
+          <li class="d-inline-block">
+            <span>
+              <i class="bi bi-geo-alt"></i>
+            </span>
+            <span>York Blvd, Los Angeles, US</span>
+          </li>
+        </ul>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="fw-bold text-uppercase text-primary fs-3">Vivon</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="ms-auto navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="#">Listing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="#">Property</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="ms-auto navbar-nav">
+              <li class="nav-item">
+                <form action="">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Search here..."
+                      class="form-control"
+                    />
+                    <button type="submit" class="btn btn-primary">
+                      <span><i class="bi bi-search"></i></span>
+                    </button>
+                  </div>
+                </form>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section
+      id="home"
+      class="position-relative d-flex justify-content-center align-items-center"
+    >
+      <div
+        class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"
+      ></div>
+      <div class="col-md-8 content text-white">
+        <div class="fw-bold text-uppercase">Find Your Dream Home</div>
+        <h1 class="display-4 mb-3">Best Apartments to Rent</h1>
+        <a href="#" class="btn btn-lg btn-primary mt-3 rounded-0">Learn more</a>
+      </div>
+    </section>
+
+    <section id="search" class="bg-light d-flex align-items-center">
+      <div class="container py-4">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <div class="card shadow-sm rounded-0 border-end-0">
+              <div class="card-body">
+                <label class="form-label fw-bold text-uppercase"
+                  >Enter Keyword</label
+                >
+                <input type="text" class="form-control rounded-0" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow-sm rounded-0">
+              <div class="card-body">
+                <label class="form-label fw-bold text-uppercase"
+                  >Property Type</label
+                >
+                <select class="form-control rounded-0">
+                  <option value="">Commercial</option>
+                  <option value="">Land</option>
+                  <option value="">Industrial</option>
+                  <option value="">House</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow-sm rounded-0 border-start-0 border-end-0">
+              <div class="card-body">
+                <label class="form-label fw-bold text-uppercase"
+                  >Location</label
+                >
+                <input type="text" class="form-control rounded-0" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow-sm rounded-0">
+              <div class="card-body">
+                <label class="form-label fw-bold text-uppercase"
+                  >Price Limit</label
+                >
+                <select class="form-control rounded-0">
+                  <option value="">₦500,000</option>
+                  <option value="">₦1,000,000</option>
+                  <option value="">₦2,000,000</option>
+                  <option value="">₦10,000,000</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-3">
+          <button class="btn btn-lg btn-primary rounded-0">
+            <span><i class="bi bi-search"></i></span>
+            <span>Search</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories">
+      <div class="container py-5">
+        <div class="fw-bold text-uppercase text-primary">vivon categories</div>
+        <h2 class="display-6 mb-5">Our Vivon Categories</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="">
+              <div class="card rounded-0 bg-light py-5">
+                <div class="card-body text-center">
+                  <span class="fs-1"><i class="bi bi-bank"></i></span>
+                  <div class="mt-2 fs-4">Commercial</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <div class="card rounded-0 bg-light text-center py-5">
+                <div class="card-body">
+                  <span class="fs-1"><i class="bi bi-house"></i></span>
+                  <div class="mt-2 fs-4">Resindetial</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <div class="card rounded-0 bg-light text-center py-5">
+                <div class="card-body">
+                  <span class="fs-1"><i class="bi bi-bricks"></i></span>
+                  <div class="mt-2 fs-4">Land</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <div class="card rounded-0 bg-light text-center py-5">
+                <div class="card-body">
+                  <span class="fs-1"><i class="bi bi-gear-wide"></i></span>
+                  <div class="mt-2 fs-4">Industrial</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="listing-popular" class="bg-light">
+      <div class="container py-5">
+        <div class="fw-bold text-uppercase text-primary">Popular</div>
+        <h2 class="display-6 mb-5">Popular Listing</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="position-relative">
+                <div class="position-absolute bottom-0 start-0 p-3">
+                  <div
+                    class="badge fw-light fs-6 text-uppercase bg-info rounded-pill p-2"
+                  >
+                    For Sale
+                  </div>
+                </div>
+                <img
+                  src="/assets/ocean_front.jpg"
+                  alt="listing-img"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h2 class="fs-5 card-title">Amazing ocean front apartment</h2>
+                <p class="text-muted">
+                  <span><i class="bi bi-geo-alt"></i></span>
+                  <span>Drive Street, Los Angeles, US</span>
+                </p>
+                <p class="fs-3 text-primary">₦2,000,000</p>
+                <p>4 bds . 4 ba . 2500SQFT</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="position-relative">
+                <div class="position-absolute bottom-0 start-0 p-3">
+                  <div
+                    class="badge fw-light fs-6 text-uppercase bg-info rounded-pill p-2"
+                  >
+                    For Sale
+                  </div>
+                </div>
+                <img
+                  src="/assets/ocean_front.jpg"
+                  alt="listing-img"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h2 class="fs-5 card-title">Amazing ocean front apartment</h2>
+                <p class="text-muted">
+                  <span><i class="bi bi-geo-alt"></i></span>
+                  <span>Drive Street, Los Angeles, US</span>
+                </p>
+                <p class="fs-3 text-primary">₦2,000,000</p>
+                <p>4 bds . 4 ba . 2500SQFT</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="position-relative">
+                <div class="position-absolute bottom-0 start-0 p-3">
+                  <div
+                    class="badge fw-light fs-6 text-uppercase bg-info rounded-pill p-2"
+                  >
+                    For Sale
+                  </div>
+                </div>
+                <img
+                  src="/assets/ocean_front.jpg"
+                  alt="listing-img"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h2 class="fs-5 card-title">Amazing ocean front apartment</h2>
+                <p class="text-muted">
+                  <span><i class="bi bi-geo-alt"></i></span>
+                  <span>Drive Street, Los Angeles, US</span>
+                </p>
+                <p class="fs-3 text-primary">₦2,000,000</p>
+                <p>4 bds . 4 ba . 2500SQFT</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
